@@ -2,7 +2,7 @@
 import pytest
 from login_ops import LoginPage
 
-#file_path = "/excel_selenium_pytest/creds_test_data.xlsx"
+
 from read_excel import get_credentials_data
 
 creds_data = get_credentials_data()
